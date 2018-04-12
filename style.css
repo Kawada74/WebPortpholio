@@ -1,0 +1,234 @@
+
+h1{
+    width: 85%;
+    height: 35%;
+    font-size: 2rem; /*通常だとフォントサイズは16px*/
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 1.5em;
+    padding-top: 20%; 
+    padding-bottom: 10%;
+    padding-left: 8%;
+
+}
+h2{
+
+}
+h3{
+    font-size: 1.8em;
+    padding: 10px 0 20px 0;
+}
+.firstView{
+    width: 100%;
+    height: 100vh;
+    background: url(image/top.jpg);
+    background-size:cover; 
+    background-position: center -150px;
+
+    /* 外枠（しろ） */
+    border: solid #ffffff 50px;
+    box-sizing: border-box; /**線を大枠の中で納める**/
+    border-radius: 60px;
+
+}
+
+p{
+    line-height: 1.6em;
+    
+}
+.topMenu{
+    width: 25%;
+    height: 100%;
+    background:rgba(255, 255, 255, 0.75);
+    
+}
+.topMenu > ul > li > a{
+    font-size: 2em;
+    text-decoration: none;
+    color: #000000;
+    line-height: 2.6em;
+    padding-left: 8%; 
+}
+
+#ABOUT{
+    background: #FFAEA2;
+    padding: 70px 0;
+}
+
+.secondView{
+    width: 90%;
+    background: #ffffff;
+    border-radius: 60px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.title{
+    text-align: center;
+    padding: 50px 0;
+    padding-bottom:  10px;
+    font-size: 3em;
+}
+
+.sub_title{
+    text-align: center;
+    padding: 0px;
+    font-size: 1.2em; 
+}
+
+.contents0{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    margin-bottom: 150px;
+}
+
+.contents0_left{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    background: url(image/ayu.png);
+    background-size:cover; 
+    background-position: center center;
+    
+}
+
+.contents0_right{
+    width:50%;
+}
+
+.caption{
+    width: 20%;
+    border-bottom: 1px solid;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    
+}
+
+.caption:nth-child(1){
+    width: 50%;
+    border-bottom: 1px solid;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.contents0_right > dl > dd{
+    line-height: 1.5em;    
+}
+
+.shumi > dd{
+    line-height: 1.5em;        
+}
+
+.like > dd{
+    line-height: 1.5em;    
+}
+
+.test{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.test > dd{
+    width: 82px;
+    font-size: 8px;
+    background: url(image/2x/AI.png) no-repeat;
+    background-size: 50px 50px;
+    padding-top: 53px;
+    margin-right: -18px;
+    margin-top: 10px;
+}
+
+.pf{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.shumi{
+    width: 50%;
+}
+
+.like{
+    width: 50%;  
+}
+
+.contents1{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 0px;
+}
+.picture1{
+    width: 290px;
+    height: 200px;
+    margin: -18px auto;
+    background: url(image/2x/pic1.png);
+    background-size: contain;
+}
+.para1{
+    width: 50%;
+}
+
+.contents2{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 0px;
+}
+.picture2{
+    width: 290px;
+    height: 224px;
+    margin: -30px auto;    
+    background: url(image/2x/pic2.png);
+    background-size: contain;
+}
+.para2{
+    width: 50%;
+}
+
+.contents3{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 0px;
+}
+.picture3{
+    width: 300px;
+    height: 181px;
+    margin: 12px auto;        
+    background: url(image/2x/pic3.png);
+    background-size: contain;
+}
+.para3{
+    width: 50%;
+}
+.thirdView{
+    
+
+}
+
+.forthView{
+    width: 100%;
+    height: 100vh;
+    background: url(image/top.jpg);
+    background-size:cover; 
+    background-position: center -150px;
+
+    /* 外枠（しろ） */
+    border: solid #ffffff 50px;
+    box-sizing: border-box; /**線を大枠の中で納める**/
+    border-radius: 60px;
+
+}
+
+.fifthView{
+    width: 100%;
+    height: 100vh;
+    background: url(image/top.jpg);
+    background-size:cover; 
+    background-position: center -150px;
+
+    /* 外枠（しろ） */
+    border: solid #ffffff 50px;
+    box-sizing: border-box; /**線を大枠の中で納める**/
+    border-radius: 60px;
+
+}
