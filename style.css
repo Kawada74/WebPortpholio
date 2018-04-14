@@ -125,17 +125,94 @@ p{
 .test{
     display: flex;
     flex-wrap: wrap;
-
+    max-width:  590px;
+    min-width: 200px;
 }
 
 .test > dd{
-    width: 82px;
+    width: 50px;
     font-size: 8px;
+    
+    padding-top: 53px;
+    text-align: center;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+.test > dd:nth-child(1){
     background: url(image/2x/AI.png) no-repeat;
     background-size: 50px 50px;
-    padding-top: 53px;
-    margin-right: -18px;
-    margin-top: 10px;
+}
+
+.test > dd:nth-child(2){
+    background: url(image/2x/PR.png) no-repeat;
+    background-size: 50px 50px;
+}
+
+.test > dd:nth-child(3){
+    background: url(image/2x/LR.png) no-repeat;
+    background-size: 50px 50px;
+}
+
+.test > dd:nth-child(4){
+    background: url(image/2x/AE.png) no-repeat;
+    background-size: 50px 50px;
+}
+
+.test > dd:nth-child(5){
+    background: url(image/2x/PR.png) no-repeat;
+    background-size: 50px 50px;
+}
+
+.test > dd:nth-child(6){
+    background: url(image/2x/XD.png) no-repeat;
+    background-size: 50px 50px;
+}
+
+.test > dd:nth-child(7){
+    background: url(image/2x/SK.png) no-repeat;
+    background-size: 50px 50px;
+}
+
+.test > dd:nth-child(8){
+    background: url(image/2x/HT.png) no-repeat;
+    background-size: 50px 50px;
+}
+
+.test > dd:nth-child(9){
+    background: url(image/2x/CS.png) no-repeat;
+    background-size: 50px 50px;
+}
+
+.test > dd:nth-child(10){
+    background: url(image/2x/PROCESSING.png) no-repeat;
+    background-size: 50px 50px;
+}
+
+.test > dd:nth-child(11){
+    background: url(image/2x/AR.png) no-repeat;
+    background-size: 50px 50px;
+}
+
+.test > dd:nth-child(12){
+    background: url(image/2x/JA.png) no-repeat;
+    background-size: auto 50px;
+    background-position-x: center;
+}
+
+.test > dd:nth-child(13){
+    background: url(image/2x/SW.png) no-repeat;
+    background-size: 50px 50px;
+}
+
+.test > dd:nth-child(14){
+    background: url(image/2x/GI.png) no-repeat;
+    background-size: 50px 50px;
+}
+
+.test > dd:nth-child(15){
+    background: url(image/2x/SO.png) no-repeat;
+    background-size: 50px 50px;
 }
 
 .pf{
@@ -160,28 +237,36 @@ p{
 .picture1{
     width: 290px;
     height: 200px;
-    margin: -18px auto;
-    background: url(image/2x/pic1.png);
+    margin: 0px auto;
+    background: url(image/2x/pic1.png) no-repeat;
     background-size: contain;
 }
 .para1{
     width: 50%;
 }
 
+.para1 > p{
+    max-width: 570px;
+}
 .contents2{
     display: flex;
     justify-content: space-between;
     margin: 80px 0px;
 }
+
 .picture2{
     width: 290px;
     height: 224px;
-    margin: -30px auto;    
-    background: url(image/2x/pic2.png);
+    margin: 0px auto;    
+    background: url(image/2x/pic2.png) no-repeat;
     background-size: contain;
 }
 .para2{
     width: 50%;
+}
+
+.para2 > p{
+    max-width: 560px;
 }
 
 .contents3{
@@ -192,42 +277,98 @@ p{
 .picture3{
     width: 300px;
     height: 181px;
-    margin: 12px auto;        
-    background: url(image/2x/pic3.png);
+    margin: 23px auto;        
+    background: url(image/2x/pic3.png) no-repeat;
     background-size: contain;
 }
 .para3{
     width: 50%;
 }
-.thirdView{
-    
+.para3 > p{
+    max-width: 570px;
+}
 
+#WORKS{
+    background: #FFE400;
+    padding: 70px 0;
+}
+
+.thirdView{
+    width: 90%;
+    background: #ffffff;
+    border-radius: 60px;
+    padding: 10px;
+    margin: 0 auto;
+
+}
+
+#CONTACTS{
+    background: #FFBD45;
+    padding: 70px 0;
 }
 
 .forthView{
-    width: 100%;
-    height: 100vh;
-    background: url(image/top.jpg);
-    background-size:cover; 
-    background-position: center -150px;
-
-    /* 外枠（しろ） */
-    border: solid #ffffff 50px;
-    box-sizing: border-box; /**線を大枠の中で納める**/
+    width: 90%;
+    background: #ffffff;
     border-radius: 60px;
+    padding: 10px;
+    margin: 0 auto;
 
+}
+#OTHERS{
+    background: #B4D000;
+    padding: 70px 0;
 }
 
 .fifthView{
-    width: 100%;
-    height: 100vh;
-    background: url(image/top.jpg);
-    background-size:cover; 
-    background-position: center -150px;
-
-    /* 外枠（しろ） */
-    border: solid #ffffff 50px;
-    box-sizing: border-box; /**線を大枠の中で納める**/
+    width: 90%;
+    background: #ffffff;
     border-radius: 60px;
+    padding: 10px;
+    margin: 0 auto;
 
+}
+
+.SNS{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+
+.left_others{
+    margin-right: 40px;
+    font-size: 22px;
+}
+
+.left_others > dl >dt{
+    padding-bottom: 80px;
+    background: url(image/2x/f.png) no-repeat;
+    background-size: 60px 60px;
+    background-position: center 35px;        
+}
+
+.center_others{
+    margin-right: 40px;
+    font-size: 22px;
+    
+}
+
+.center_others > dl >dt{
+    padding-bottom: 80px;
+    background: url(image/2x/v.png) no-repeat;
+    background-size: 60px 60px;
+    background-position: center 35px;
+}
+
+.right_others{
+    font-size: 22px;
+}
+
+.right_others > dl >dt{
+    padding-bottom: 80px;
+    background: url(image/2x/w.png) no-repeat;
+    background-size: 60px 60px;
+    background-position: center 35px;    
 }
